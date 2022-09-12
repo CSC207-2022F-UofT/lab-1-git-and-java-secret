@@ -35,5 +35,7 @@ public class IntroLabTest {
     public void testyangkyl1() {
         String expected = "Hello! My name is Kyle! " +
                 "I like dogs more than cats! nice";
+        String actual = IntroLab.yangkyl1();
+        assertEquals(expected, actual);
     }
 }
