@@ -33,6 +33,7 @@ public class IntroLab {
         return message_to_print + message;
     }
 
+
     /* TODO: In the space below, write your our method.
      *       The method should be named with your utorID and should call
      *       printLabMessage with some parameters.
@@ -49,6 +50,9 @@ public class IntroLab {
                 "Welcome to CSC207!");
     }
 
+    public static String yangkyl1() {
+        return printLabMessage("Hello", "Kyle", false, "nice");
+    }
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
