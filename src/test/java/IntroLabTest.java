@@ -30,4 +30,12 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+
+    @Test(timeout = 20)
+    public void testCheemala() {
+        String expected = "Hiya! My name is Krishna! " +
+                "I like cats more than dogs! Welcome to CSC207!";
+        String actual = IntroLab.cheemala();
+        assertEquals(expected, actual);
+    }
 }
