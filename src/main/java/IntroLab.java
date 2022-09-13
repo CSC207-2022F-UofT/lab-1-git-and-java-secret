@@ -40,7 +40,7 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
-    public static String mojadid2(){
+    public static String mojadidd(){
         return printLabMessage("Good Morning", "Modaser", false, "You have one class today");
     }
     /**
